@@ -1,0 +1,87 @@
+# Silent Eight
+
+> Silent Eight is an AI-driven financial crime compliance (FCC) technology company, founded in Singapore and operating globally. Its flagship platform, Iris 7, delivers policy-bound Agentic AI that replicates the investigative judgement of experienced compliance analysts — executing decisions across sanctions screening, AML, transaction monitoring, fraud, trade surveillance, and complex due diligence at scale. Deployed in live environments with Tier 1 banks since 2018, Silent Eight is trusted by institutions including HSBC, Standard Chartered, Emirates NBD, and First Abu Dhabi Bank.
+
+Silent Eight's AI Agents produce explainable, auditable decisions — not risk scores — aligned to each institution's policy intent and regulatory obligations. The platform is designed for high-volume compliance operations where accuracy, consistency, and defensibility are essential. Deployments are available via managed service, customer cloud, hybrid, or on-premise infrastructure.
+
+Key differentiators:
+
+- Deterministic, case-specific adjudication that replicates investigator decisioning, rather than probabilistic risk scoring
+- Full audit traceability and regulator-ready output built into every decision (policy logic, reasoning path, evidence, and outcome)
+- Models trained on real-world compliance data from leading global institutions
+- Continuous learning from analyst feedback under human-in-the-loop / human-over-the-loop governance
+- Watchlist- and data-agnostic; deployable in weeks on top of existing screening and monitoring environments
+
+## Iris 7 Platform
+
+- [Iris 7 At Glance](https://www.silenteight.com/iris-7-at-glance): A governed decisioning operating model for FCC — how Iris 7 executes sanctions, AML, and CDD decisions with structured reasoning, oversight controls, and regulator-ready traceability while scaling without scaling headcount.
+- [Iris 7 Architecture](https://www.silenteight.com/iris-7-architecture): The governance and decision architecture behind Iris 7 — agent runtime and orchestration, a unified context layer, embedded governance, and a context/reasoning/decision framework that extends decisioning without replacing core systems.
+- [Iris 7 Deployment](https://www.silenteight.com/iris-7-deployment): Flexible deployment models — managed service, customer cloud, or on-premises — aligned to institutional security, infrastructure, and data residency, with decision logic and governance consistent across all models.
+- [Iris 7 Decisioning Platform](https://www.silenteight.com/iris-7-decisioning-platform): Complete, governed end-to-end decision frameworks that replace legacy screening and monitoring systems, spanning the Customer Screening, Payment Screening, and Transaction Monitoring Suites under one architecture.
+- [Iris 7 AI Agents](https://www.silenteight.com/iris-7-ai-agents): Overview of the AI Agents that execute policy-bound decisions across screening, monitoring, due diligence, surveillance, fraud, and regulatory reporting, applying structured reasoning within defined governance controls.
+- [Iris 7 Custom AI](https://www.silenteight.com/iris-7-custom-ai): Deploy specialised, policy-bound AI decision workflows for complex or fast-changing processes — reusing the same reasoning framework and oversight controls without rebuilding infrastructure.
+
+## AI Agents by Capability
+
+- [Customer Screening](https://www.silenteight.com/ai-agents-by-capability/customer-screening): Coordinated AI Agents across the customer screening lifecycle — risk data, detection, investigation, and decisioning over sanctions, PEP, and adverse media — resolving up to 90% of alerts to speed onboarding and reduce false positives.
+- [Payment Screening](https://www.silenteight.com/ai-agents-by-capability/payment-screening): Real-time screening across SWIFT MT/MX, ACH, SEPA, and Fedwire — AI Agents parse payment messages, resolve all payment parties, and adjudicate sanctions alerts to raise straight-through processing in faster-payments environments.
+- [Transaction Monitoring](https://www.silenteight.com/ai-agents-by-capability/transaction-monitoring): AI-powered investigation and decisioning for AML monitoring — adjudicates cases in behavioural context (customer behaviour, counterparty networks, adverse media) to cut manual review workload by up to 80% without missing genuine risk.
+- [Risk Data Manager](https://www.silenteight.com/ai-agents-by-capability/risk-data-manager): Validates, cleans, deduplicates, and consolidates sanctions, PEP, and watchlist data through entity resolution so only high-quality, validated data is sent for screening; watchlist-agnostic with batch and real-time updates.
+- [Adverse Media](https://www.silenteight.com/ai-agents-by-capability/adverse-media): Negative-news and open-source screening that uncovers hidden financial crime risk and applies materiality assessment (severity, recency, investigation stage) to add context to customer screening and transaction monitoring.
+- [Case Manager](https://www.silenteight.com/ai-agents-by-capability/case-manager): End-to-end case management workflow with a unified alert view, configurable workflows and statuses, productivity dashboards, and full audit trails; compatible across all Silent Eight solutions.
+
+## Pre-built & Custom Agents
+
+- [Iris 7 Custom Build](https://www.silenteight.com/pre-built-custom-agents/iris-7-custom-build): Custom-built AI Agents that extend governed decisioning into new or specialised domains without changing the institution's underlying compliance framework.
+- [Horizon Scanning Agent](https://www.silenteight.com/pre-built-custom-agents/horizon-scanning-agent): Continuously interprets regulatory, sanctions, AML, and geopolitical change against the institution's own policy framework, producing structured, auditable assessments of jurisdictional scope and control impact.
+- [Expert CDD Agent](https://www.silenteight.com/pre-built-custom-agents/expert-cdd-agent): Applies structured judgement to complex CDD/EDD reviews — ownership structures, PEP exposure, jurisdictional nuance, conflicting data — returning documented accept, escalate, enhanced-monitoring, or conditional-review decisions.
+- [Expert Screening Decision Agent](https://www.silenteight.com/pre-built-custom-agents/expert-screening-decision-agent): Senior-level interpretation of escalated sanctions and watchlist cases using contextual research and policy intent — assessing entity relationships, indirect exposure, and jurisdiction within defined authority limits.
+- [Trade Surveillance Agent](https://www.silenteight.com/pre-built-custom-agents/trade-surveillance-agent): Evaluates trading activity across instruments, timeframes, and counterparties to distinguish legitimate strategy from potential market abuse, applying internal surveillance policy and regulatory expectations.
+- [Adverse News Agent](https://www.silenteight.com/pre-built-custom-agents/adverse-news-agent): Materiality-driven evaluation of global adverse media by relevance, severity, recency, and source credibility, with consolidated evidence and documented reasoning rather than keyword matching.
+- [Customer Screening Agent](https://www.silenteight.com/pre-built-custom-agents/customer-screening-agent): Pre-built agent delivering policy-aligned automated decisions on sanctions, PEP, and adverse media alerts with complete reasoning and evidence, supporting real-time onboarding and ongoing screening.
+- [Payment Screening Agent](https://www.silenteight.com/pre-built-custom-agents/payment-screening-agent): Pre-built agent that resolves payment screening alerts in real time using contextual sanctions reasoning, parsing payment messages across all major formats to lift straight-through processing.
+- [Transaction Monitoring Decision Agent](https://www.silenteight.com/pre-built-custom-agents/transaction-monitoring-decisions-agent): Pre-built agent that autonomously investigates and decides AML monitoring cases in full context, closing low-risk cases and escalating genuine risk with complete narratives and audit trails.
+
+## End-to-End Solutions
+
+- [Customer Screening Suite](https://www.silenteight.com/end-to-end-solutions/customer-screening-suite): End-to-end AI customer screening across sanctions, PEP, and adverse media — unifies risk data management, detection, and adjudication to resolve up to 90% of alerts, lift straight-through processing to ~85%, and keep blocking rates below the industry average.
+- [Payment Screening Suite](https://www.silenteight.com/end-to-end-solutions/payment-screening-suite): End-to-end real-time payment screening for sanctions and restricted counterparties — combines risk data, detection, and AI adjudication to cut unnecessary blocks and raise STP, with support for ACH, SEPA, SWIFT, and Fedwire (including MT to ISO 20022 / MX).
+
+## Expertise
+
+- [Why Silent Eight](https://www.silenteight.com/why-silent-eight): The case for Silent Eight — proven in production since 2018, trained on real-world data, explainable AI by design, human-in-the-loop control, modular deployment in weeks, and security engineered for regulated environments.
+- [What We Offer](https://www.silenteight.com/what-we-offer): The Iris solution stack across the FCC lifecycle — screening & detection, investigation & adjudication, transaction monitoring & behaviour analysis, case building & documentation, and QA & controls — adopted modularly.
+- [Ask Expert](https://www.silenteight.com/ask-expert): Access to Silent Eight's subject matter experts across AML, sanctions, fraud, and financial crime strategy.
+- [White Papers](https://www.silenteight.com/white-papers): In-depth technical and regulatory thought leadership on AI in financial crime compliance.
+- [Blogs](https://www.silenteight.com/blog): Editorial articles and regulatory insight covering AML, sanctions, KYC, and AI in compliance.
+- [Explore & Learn](https://www.silenteight.com/explore-learn): Learning hub with infographics, explainers, and educational content on FCC and AI.
+- [FAQs](https://www.silenteight.com/faq): Answers on staying current, explainability and auditability, accuracy, scalability, cost/ROI, regulatory compliance, deployment, data security, risk-appetite customisation, bias, model drift, watchlists, and decisions vs scoring.
+
+## Case Studies & Clients
+
+- [Case Studies](https://www.silenteight.com/case-studies): Client implementation stories covering operational outcomes, efficiency gains, and compliance performance at Tier 1 institutions.
+- [Clients at a Glance](https://www.silenteight.com/clients-at-a-glance): The world-leading financial institutions that deploy Silent Eight in production, including HSBC, Standard Chartered, Emirates NBD, and First Abu Dhabi Bank.
+
+## Company
+
+- [Silent Eight 360](https://www.silenteight.com/silent-eight-360): Company purpose and mission — its stand against financial crime, investor and client trust, and the leadership team, including founders Martin Markiewicz, Michael Wilkowski, and Julia Markiewicz.
+- [Silent Eight History](https://www.silenteight.com/history): Timeline from 2015 (JFDI.Asia accelerator and seed funding) through Standard Chartered (2018), HSBC (2021), $40m Series B (2022), and GCC bank partnerships, to the 2025 launch of Iris 7.
+- [Awards & Accreditations](https://www.silenteight.com/award-and-accreditations): Industry awards, recognitions, and certifications held by Silent Eight.
+- [Brand](https://www.silenteight.com/brand): Brand guidelines and assets.
+- [Career](https://silenteight.teamtailor.com/jobs): Open roles and careers at Silent Eight.
+- [Contact](https://www.silenteight.com/contact): Enquiry form for sales, partnerships, and general contact.
+
+## Events & Media
+
+- [Online Workshops](https://www.silenteight.com/online-workshops): Recorded and upcoming practitioner workshops on AI deployment in banking and compliance operations.
+- [Webinars](https://www.silenteight.com/webinars): Live and on-demand webinars on financial crime compliance and AI.
+- [In-Person Events](https://www.silenteight.com/in-person-events): Industry events and conferences hosted or attended by Silent Eight, including the Silent Eight Synergy event.
+- [Meet the Team](https://www.silenteight.com/meet-the-team): The people behind Silent Eight — leadership and team members across the company.
+- [Interviews](https://www.silenteight.com/interviews): Interviews with Silent Eight leaders and industry experts.
+- [Podcasts](https://www.silenteight.com/podcasts): Silent Eight podcast episodes on FCC, AML, sanctions, and AI.
+
+## Optional
+
+- [Privacy Policy](https://www.silenteight.com/legal/privacy-policy): How Silent Eight collects, uses, and protects personal data.
+- [Cookie Policy](https://www.silenteight.com/legal/cookie-policy): Use of cookies and tracking technologies on the website.
+- [Security](https://www.silenteight.com/legal/security-vulnerability-disclosure): Security practices and responsible vulnerability disclosure process.

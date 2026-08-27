@@ -1,0 +1,28 @@
+generated: '2026-08-27'
+method: searched
+source: >-
+  https://www.silenteight.com/llms.txt, https://www.silenteight.com/sitemap.xml,
+  DNS probes of mcp/api/docs/developer/app/console.silenteight.com (NXDOMAIN),
+  /.well-known/agent-card.json and /.well-known/agent.json on www.silenteight.com (404)
+server_count: 0
+tools: []
+deployment:
+  mode: none
+  endpoint: null
+  install: null
+  package: null
+  auth: unknown
+  verified: searched
+note: >-
+  No MCP server. Silent Eight publishes neither a hosted/remote MCP endpoint nor a
+  local-stdio package, and no MCP endpoint URL was invented — no candidate path was probed
+  into existence. There is also nothing to DERIVE a candidate tool list from: the company
+  publishes no OpenAPI, GraphQL SDL or any other machine-readable contract (see x-coverage
+  in apis.yml), so a derived tool list would be fabrication rather than derivation. Recorded
+  as mode:none with NO `MCPServer` pointer in apis.yml.
+irony_note: >-
+  Silent Eight's product IS a fleet of AI agents (nine named pre-built and capability
+  agents in Iris 7), and the company serves a well-formed /llms.txt describing them for
+  LLM consumers — but exposes no agent-callable surface of its own: no MCP server, no A2A
+  agent card, no OpenAPI. The agents run inside the customer's tenant, not on an
+  addressable endpoint.

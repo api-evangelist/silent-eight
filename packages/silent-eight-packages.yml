@@ -1,0 +1,28 @@
+generated: '2026-08-27'
+method: searched
+source: >-
+  registry.npmjs.org search "silenteight" (0 results), pypi.org/pypi/silenteight/json (404),
+  api.github.com/orgs/silent-eight (404), api.github.com/orgs/silenteight (404),
+  https://www.silenteight.com/llms.txt, https://www.silenteight.com/sitemap.xml
+package_count: 0
+official_package_count: 0
+packages: []
+registries_searched:
+- registry: npm
+  query: silenteight
+  result: 0 matches
+- registry: pypi
+  query: silenteight
+  result: 404
+- registry: github-org
+  query: github.com/silent-eight, github.com/silenteight
+  result: 404 (no public GitHub organization)
+note: >-
+  Silent Eight ships no public client libraries. No first-party SDK exists on npm, PyPI,
+  Maven Central, NuGet, pkg.go.dev, RubyGems, Packagist or crates.io, there is no public
+  GitHub organization under either spelling, and neither the site nor the company's own
+  llms.txt links to a repository, SDK, CLI or code sample anywhere. Consistent with the
+  delivery model: Iris 7 is integrated into each institution's tenant under enterprise
+  contract, so any client code is delivered privately to customers. Every entry would carry
+  version/published fields; there are no entries to carry them. NO `SDKs` or `Packages`
+  pointer is emitted, because zero packages exist to point at.

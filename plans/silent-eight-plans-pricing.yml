@@ -1,0 +1,22 @@
+generated: '2026-08-27'
+method: searched
+source: >-
+  https://www.silenteight.com/sitemap.xml (161 URLs, no pricing page),
+  https://www.silenteight.com/pricing (404), https://www.silenteight.com/llms.txt,
+  https://www.silenteight.com/contact
+plan_count: 0
+currency: null
+plans: []
+note: >-
+  Silent Eight publishes NO pricing. /pricing returns 404 and no pricing, plans, packaging
+  or "how it's licensed" page appears anywhere in the 161-URL sitemap or in the company's
+  own llms.txt. The only commercial entry point is the enquiry form at
+  https://www.silenteight.com/contact ("Enquiry form for sales, partnerships, and general
+  contact") and https://www.silenteight.com/ask-expert. The FAQ has a "Cost" section, but it
+  discusses total cost of ownership and ROI in narrative terms and states no price, unit,
+  tier or licence metric. This is a contact-sales-only enterprise motion, recorded as an
+  honest zero rather than an omitted file.
+commercial_model: enterprise-contact-sales
+signup_self_serve: false
+free_tier: false
+trial: false

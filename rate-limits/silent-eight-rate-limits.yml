@@ -1,0 +1,16 @@
+generated: '2026-08-27'
+method: searched
+source: >-
+  https://www.silenteight.com/llms.txt, https://www.silenteight.com/faq,
+  https://www.silenteight.com/iris-7-architecture, https://www.silenteight.com/sitemap.xml
+limit_count: 0
+rate_limits: []
+headers: []
+exhaustion_status: null
+note: >-
+  No rate limits are published, because no public API is published. Silent Eight documents
+  no developer surface at all: no /openapi.json, no docs host, no API reference, and no
+  quota, throttling, burst or Retry-After semantics anywhere on the public site. The Iris 7
+  architecture page describes internal "managed sequencing, tool and API calls, retry logic,
+  and workload balancing" inside the agent runtime, which is the platform's own internal
+  behaviour and not a consumer-facing rate-limit contract. Recorded as an honest zero.

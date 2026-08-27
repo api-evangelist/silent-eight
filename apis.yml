@@ -1,17 +1,37 @@
 aid: silent-eight
 name: Silent Eight
-description: 'Silent Eight is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Silent Eight is an AI-driven financial crime compliance (FCC) technology company founded
+  in Singapore in 2015 and operating globally. Its flagship platform, Iris 7, delivers policy-bound agentic
+  AI that replicates the investigative judgement of experienced compliance analysts, executing explainable,
+  auditable decisions across sanctions screening, anti-money laundering, transaction monitoring, fraud,
+  trade surveillance and complex customer due diligence. Iris 7 is composed of AI Agents by capability
+  (Customer Screening, Payment Screening, Transaction Monitoring, Risk Data Manager, Adverse Media, Case
+  Manager) plus pre-built and custom agents, and is deployed as a governed decision layer on top of existing
+  screening and monitoring systems via managed service, customer cloud, hybrid or on-premise infrastructure.
+  In production with Tier 1 institutions since 2018, including HSBC, Standard Chartered, Emirates NBD
+  and First Abu Dhabi Bank. Silent Eight publishes no public developer program: the platform is delivered
+  under enterprise contract and integrated into each institution''s tenant, so no machine-readable API
+  contract is published to the open web.'
+image: https://framerusercontent.com/assets/3oVvOPCtRMs62t6nHwQegaxRrk.jpg
 url: https://raw.githubusercontent.com/api-evangelist/silent-eight/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-27'
 modified: '2026-08-27'
 tags:
 - Company
+- Financial Crime Compliance
+- Anti-Money Laundering
+- Sanctions Screening
+- Transaction Monitoring
+- Know Your Customer
+- Adverse Media
+- RegTech
+- Artificial Intelligence
+- Agentic AI
+- Financial Services
+- Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +39,61 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/silent-eight-domain-security.yml
 - type: Website
-  url: https://www.hiive.com/securities/silent-eight-stock
+  url: https://www.silenteight.com/
+- type: Blog
+  url: https://www.silenteight.com/blog
+- type: Support
+  url: https://www.silenteight.com/contact
+- type: FAQ
+  url: https://www.silenteight.com/faq
+- type: PrivacyPolicy
+  url: https://www.silenteight.com/legal/privacy-policy
+- type: CookiePolicy
+  url: https://www.silenteight.com/legal/cookie-policy
+- type: Security
+  url: https://www.silenteight.com/legal/security-vulnerability-disclosure
+- type: Awards
+  url: https://www.silenteight.com/award-and-accreditations
+- type: WhitePapers
+  url: https://www.silenteight.com/white-papers
+- type: LLMsTxt
+  url: llms/silent-eight-llms.txt
+- type: VulnerabilityDisclosure
+  url: security/silent-eight-vulnerability-disclosure.yml
+- type: Conformance
+  url: conformance/silent-eight-conformance.yml
+- type: Plans
+  url: plans/silent-eight-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/silent-eight-rate-limits.yml
+- type: Careers
+  url: https://silenteight.teamtailor.com/jobs
+x-enrichment:
+  date: '2026-08-27'
+  status: minimal
+  artifacts_added: 10
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: 'Silent Eight sells Iris 7 as an enterprise platform deployed inside each bank''s own tenant
+    (managed service, customer cloud, hybrid or on-premise) and publishes no developer surface whatsoever:
+    its own 161-URL sitemap and its own llms.txt contain no API, SDK, endpoint, integration-guide or developer-portal
+    link, and none of docs/developer/api/portal/app/console.silenteight.com resolve in DNS.'
+  evidence:
+  - url: https://www.silenteight.com/llms.txt
+    status: 200
+  - url: https://www.silenteight.com/sitemap.xml
+    status: 200
+  - url: https://www.silenteight.com/openapi.json
+    status: 404
+  - url: https://www.silenteight.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.silenteight.com/.well-known/security.txt
+    status: 404
+  - url: https://api.github.com/orgs/silenteight
+    status: 404
+  checked: '2026-08-27'

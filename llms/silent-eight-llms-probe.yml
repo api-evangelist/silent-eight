@@ -1,0 +1,54 @@
+generated: '2026-08-27'
+method: probed
+source: https://www.silenteight.com/llms.txt
+note: >-
+  Provenance + link-liveness record for the VERBATIM llms.txt saved alongside this file.
+  The file was fetched unmodified from the provider's own host; it is well-formed llms.txt
+  (H1, blockquote summary, sectioned link lists with descriptions) and is unusually rich for
+  a company with no developer program — 12,992 bytes covering the Iris 7 platform, nine AI
+  agents, two end-to-end suites, expertise, case studies, company and legal pages.
+llms_txt:
+  url: https://www.silenteight.com/llms.txt
+  http_status: 200
+  content_type: text/plain;charset=utf-8
+  bytes: 12992
+  file: llms/silent-eight-llms.txt
+  llms_full_txt: false
+  fetched: '2026-08-27'
+link_liveness:
+  checked: 20
+  dead: 1
+  dead_links:
+  - url: https://www.silenteight.com/webinars
+    status: 404
+    context: >-
+      Listed under "## Events & Media" as "Webinars: Live and on-demand webinars on financial
+      crime compliance and AI." The path is absent from the site's own sitemap.xml and returns
+      the Framer 404 page. Worth reporting to the provider: an llms.txt that advertises a URL
+      the site does not serve teaches an agent a route that does not exist.
+  spot_checked_live:
+  - {url: 'https://www.silenteight.com/', status: 200}
+  - {url: 'https://www.silenteight.com/blog', status: 200}
+  - {url: 'https://www.silenteight.com/faq', status: 200}
+  - {url: 'https://www.silenteight.com/contact', status: 200}
+  - {url: 'https://www.silenteight.com/podcasts', status: 200}
+  - {url: 'https://www.silenteight.com/iris-7-architecture', status: 200}
+  - {url: 'https://www.silenteight.com/iris-7-at-glance', status: 200}
+  - {url: 'https://www.silenteight.com/what-we-offer', status: 200}
+  - {url: 'https://www.silenteight.com/why-silent-eight', status: 200}
+  - {url: 'https://www.silenteight.com/white-papers', status: 200}
+  - {url: 'https://www.silenteight.com/explore-learn', status: 200}
+  - {url: 'https://www.silenteight.com/ask-expert', status: 200}
+  - {url: 'https://www.silenteight.com/training-sessions', status: 200}
+  - {url: 'https://www.silenteight.com/award-and-accreditations', status: 200}
+  - {url: 'https://www.silenteight.com/legal/privacy-policy', status: 200}
+  - {url: 'https://www.silenteight.com/legal/cookie-policy', status: 200}
+  - {url: 'https://www.silenteight.com/legal/security-vulnerability-disclosure', status: 200}
+  - {url: 'https://www.silenteight.com/end-to-end-solutions/payment-screening-suite', status: 200}
+  - {url: 'https://silenteight.teamtailor.com/jobs', status: 200}
+developer_content: none
+developer_content_note: >-
+  The llms.txt contains no API, endpoint, SDK, authentication, integration-guide or
+  developer-portal link of any kind. It is a marketing/product surface map, which is
+  itself the finding: the company invested in machine-readable discovery for LLMs while
+  publishing no machine-readable contract for agents to call.

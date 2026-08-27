@@ -1,0 +1,37 @@
+generated: '2026-08-27'
+method: probed
+source: live GET of /.well-known/* on every host named in apis.yml (www.silenteight.com)
+note: >-
+  Every probed path returned HTTP 404 with the body "Not found" (10 bytes, text/html)
+  from the Framer edge. No /.well-known document of any kind is served. Recorded as a
+  measured absence; NO WellKnown or SecurityTxt pointer is emitted in apis.yml, because
+  no path returned a real document. Silent Eight DOES publish a vulnerability disclosure
+  policy, but as an HTML page at /legal/security-vulnerability-disclosure rather than
+  as an RFC 9116 /.well-known/security.txt — see security/silent-eight-vulnerability-disclosure.yml.
+hosts:
+- host: www.silenteight.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
