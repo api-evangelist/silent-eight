@@ -12,6 +12,17 @@ description: 'Silent Eight is an AI-driven financial crime compliance (FCC) tech
   and First Abu Dhabi Bank. Silent Eight publishes no public developer program: the platform is delivered
   under enterprise contract and integrated into each institution''s tenant, so no machine-readable API
   contract is published to the open web.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://framerusercontent.com/assets/3oVvOPCtRMs62t6nHwQegaxRrk.jpg
 url: https://raw.githubusercontent.com/api-evangelist/silent-eight/refs/heads/main/apis.yml
 x-type: company
