@@ -46,15 +46,15 @@ modified: '2026-08-27'
 tags:
 - Company
 - Financial Crime Compliance
-- Anti-Money Laundering
+- AML
 - Sanctions Screening
 - Transaction Monitoring
 - KYC
 - Adverse Media
 - RegTech
 - Artificial Intelligence
-- Agentic AI
-- Financial-Services
+- AI Agents
+- Financial Services
 - Compliance
 tags_raw:
 - Company
@@ -69,6 +69,7 @@ tags_raw:
 - Agentic AI
 - Financial Services
 - Compliance
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
